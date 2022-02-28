@@ -70,7 +70,7 @@ char	**ft_cpy_num(int ac, char **av)
 	int		i;
 	int		j;
 
-	ret = malloc(sizeof(char *) * ac + 1);
+	ret = malloc(sizeof(char *) * (ac + 1));
 	i = 0;
 	j = 1;
 	while (i < ac)
@@ -94,7 +94,7 @@ void	ft_normalize(t_stack **stack, int ac, char **av)
 	i = 0;
 	temp = *stack;
 	size = get_size(&temp);
-	ft_print_lst(&temp, &temp);
+	//ft_print_lst(&temp, &temp);
 	cpy = ft_cpy_num(ac, av);
 	ft_print_lst(&temp, &temp);
 	//quicksort(av + 1, 0, size - 1);

@@ -1,0 +1,40 @@
+pb
+ra
+pb
+pb
+ra
+ra
+pa
+pa
+pa
+ra
+pb
+ra
+ra
+pb
+ra
+pa
+pa
+pb
+pb
+pb
+pb
+pb
+10
+1
+8
+2
+3
+--------------------
+
+stack a :
+10 -> 1 -> 8 -> 2 -> 3 -> (null)
+
+stack b :
+10 -> 1 -> 8 -> 2 -> 3 -> (null)
+10
+1
+8
+2
+3
+--------------------

@@ -18,7 +18,7 @@ NAME	=	push_swap
 all		:	$(NAME)
 
 $(NAME)	:	$(OBJS)
-			$(CC) -fsanitize=address -g3 -o $@ $^
+			$(CC) -g3 -o $@ $^
 
 clean	:
 			/bin/rm -f $(OBJS)

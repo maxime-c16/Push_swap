@@ -43,7 +43,7 @@ void	ft_parse_fill(t_stack **stack, char *str)
 		return ;
 	}
 	num = ft_atoi(split[i]);
-	ft_init_lst(stack, num);
+	//ft_init_lst(stack, num);
 	i = 1;
 	while (split[i])
 	{
